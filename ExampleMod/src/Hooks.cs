@@ -5,20 +5,15 @@
 
 		public Hooks()
 		{
-			Hook();
+
 		}
 
-		public void Dispose()
-		{
-			Unhook();
-		}
-
-		private void Hook()
+		public void Hook()
 		{
 
 		}
 
-		private void Unhook()
+		public void Unhook()
 		{
 
 		}

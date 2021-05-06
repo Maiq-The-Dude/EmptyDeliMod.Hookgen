@@ -9,11 +9,12 @@ namespace ExampleMod
 		public Plugin()
 		{
 			_hooks = new Hooks();
+			_hooks.Hook();
 		}
 
 		private void OnDestroy()
 		{
-			_hooks?.Dispose();
+			_hooks?.Unhook();
 		}
 	}
 }
