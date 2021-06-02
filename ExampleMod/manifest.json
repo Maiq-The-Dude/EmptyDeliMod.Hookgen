@@ -8,6 +8,9 @@
   "require": "0.3.2",
   "dependencies": {},
   "assets": {
+    "patcher": {
+      "hookgen.conf": "deli:monomod.hookgen"
+    },
     "setup": {
       "ExampleMod.dll": "deli:assembly"
     }
